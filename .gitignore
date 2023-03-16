@@ -1,0 +1,28 @@
+# macOS system files
+.DS_Store
+
+# macOS Thumbnails
+._*
+
+# Spotlight directory
+.Trashes
+
+# macOS temporary files
+*.swp
+*.lock
+*.lockfile
+
+# Thonny files
+*.bak
+*.ini
+*.pyc
+__pycache__/
+
+# Other temporary files
+*.log
+*.tmp
+*.tmp.*
+
+# Directories
+.Trashes
+temp/
