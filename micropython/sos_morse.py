@@ -1,11 +1,16 @@
 """
-Morse Code SOS with Raspberry Pi Pico and MicroPython
-
-This script demonstrates how to use a Raspberry Pi Pico to display the SOS Morse code
-using an LED connected to GPIO 25. The Morse code pattern will repeat every 3 seconds.
-
-Copyright (c) 2023 Anderson Costa
-License: MIT
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ Morse Code SOS with Raspberry Pi Pico and MicroPython    ┃
+┃                                                          ┃
+┃ This script demonstrates how to use a Raspberry Pi Pico  ┃
+┃ to display the SOS Morse code using an LED connected to  ┃
+┃ GPIO 25. The Morse code pattern will repeat every 5      ┃
+┃ seconds.                                                 ┃
+┃                                                          ┃
+┃ Copyright (c) 2023 Anderson Costa                        ┃
+┃ GitHub: github.com/arcostasi                             ┃
+┃ License: MIT                                             ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 """
 
 import machine
@@ -34,4 +39,4 @@ while True:
     for blinks, duration in data:
         signal(blinks, duration)
         utime.sleep_ms(1000)  # Interval between Morse code parts
-    utime.sleep_ms(3000)      # 3-second interval before repeating Morse code (1000 ms already considered in the loop above)
+    utime.sleep_ms(4000)      # 4-second interval before repeating Morse code (1000 ms already considered in the loop above)
