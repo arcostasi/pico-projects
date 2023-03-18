@@ -15,7 +15,6 @@ SHIFT_DATA      = 4  # P4-P7
 class I2cLcd(LcdApi):
 
     # Implements a HD44780 character LCD connected via PCF8574 on I2C
-
     def __init__(self, i2c, i2c_addr, num_lines, num_columns):
         self.i2c = i2c
         self.i2c_addr = i2c_addr
