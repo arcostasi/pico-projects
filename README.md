@@ -7,14 +7,14 @@ The Raspberry Pi Pico is a microcontroller board that provides an affordable and
 
 ## Projects
 
-1. [SOS Morse Code](sos_morse.py)
+1. [SOS Morse Code](micropython/sos_morse.py)
 This script demonstrates how to use a Raspberry Pi Pico to display the SOS Morse code using an LED connected to GPIO 25. The Morse code pattern will repeat every 3 seconds. This project is a great starting point for beginners who want to learn about basic GPIO control and timing in MicroPython on the Raspberry Pi Pico.
 
 2. [LED Flasher](micropython/led_flasher.py)
-The provided MicroPython code is designed to run on a Raspberry Pi Pico, controlling the onboard LED to create an alternating flashing sequence. The program has two distinct flash patterns: a fast flashing sequence and a slow flashing sequence.
+The provided MicroPython code is designed to run on a Raspberry Pi Pico, controlling the onboard LED to create an alternating flashing sequence. The program has two distinct flash patterns: a fast flashing sequence and a slow flashing sequence. [![Wokwi_badge](https://user-images.githubusercontent.com/63488701/212449119-a8510897-c860-4545-8c1a-794169547ba1.svg)](https://wokwi.com/projects/359571061032587265)
 
 3. [Traffic Light Controller](micropython/tlight.py)
-Traffic Light Controller is a MicroPython-based project that simulates a real-life traffic light sequence using LEDs. This project demonstrates how to program a Raspberry Pi Pico microcontroller to control the timing and sequence of LED lights, emulating the behavior of traffic lights at an intersection. The traffic light sequence includes red, yellow, and green lights for each direction, with a configurable delay between each state transition. The state machine design pattern is employed to manage the various states and transitions efficiently, ensuring a smooth and accurate traffic light simulation. [![Wokwi_badge](https://user-images.githubusercontent.com/63488701/212449119-a8510897-c860-4545-8c1a-794169547ba1.svg)](https://wokwi.com/projects/https://wokwi.com/projects/359558101922696193)
+Traffic Light Controller is a MicroPython-based project that simulates a real-life traffic light sequence using LEDs. This project demonstrates how to program a Raspberry Pi Pico microcontroller to control the timing and sequence of LED lights, emulating the behavior of traffic lights at an intersection. The traffic light sequence includes red, yellow, and green lights for each direction, with a configurable delay between each state transition. The state machine design pattern is employed to manage the various states and transitions efficiently, ensuring a smooth and accurate traffic light simulation. [![Wokwi_badge](https://user-images.githubusercontent.com/63488701/212449119-a8510897-c860-4545-8c1a-794169547ba1.svg)](https://wokwi.com/projects/359490482573538305)
 
 6. [DHT22 Sensor Data Reader](micropython/dht22.py) This script demonstrates how to use a Raspberry Pi Pico to read and display temperature and humidity data from a DHT22 sensor. The script continuously reads the sensor data and prints the temperature and humidity values to the console every second. [![Wokwi_badge](https://user-images.githubusercontent.com/63488701/212449119-a8510897-c860-4545-8c1a-794169547ba1.svg)](https://wokwi.com/projects/359493497594540033)
 
@@ -26,6 +26,9 @@ The SSD1306 OLED Display with Raspberry Pi Pico is a MicroPython-based project t
 
 7. [HC-SR04 Ultrasonic Distance Sensor](micropython/hcsr04_pico.py)
 The HC-SR04 Ultrasonic Distance Sensor with Raspberry Pi Pico is a MicroPython-based project that demonstrates how to interface and measure distances using the HC-SR04 ultrasonic sensor and the Raspberry Pi Pico microcontroller. This project showcases how to set up the GPIO pins for triggering and receiving echo signals, calculate the time taken for the echo to return, and convert this time into distance measurements in centimeters or inches. You can then display the distance measurements on an SSD1306 OLED display or an I2C LCD display, which you have already worked with, to create a real-time distance monitoring system. [![Wokwi_badge](https://user-images.githubusercontent.com/63488701/212449119-a8510897-c860-4545-8c1a-794169547ba1.svg)](https://wokwi.com/projects/359562059458336769)
+
+8. [7-Segment Display Counter](micropython/seg7_counter.py)
+The 7-Segment Display Counter with Raspberry Pi Pico is a MicroPython-based project that demonstrates how to interface with a 7-segment display to show an ascending and descending hexadecimal counter. Using the Raspberry Pi Pico microcontroller, this project shows you how to set up the GPIO pins to control each segment of the display, define the digit patterns for the hexadecimal counter, and use a switch to control the counting direction. You can expand this project by connecting multiple 7-segment displays or integrating other input devices to create an interactive counter or display system. [![Wokwi_badge](https://user-images.githubusercontent.com/63488701/212449119-a8510897-c860-4545-8c1a-794169547ba1.svg)](https://wokwi.com/projects/300210834979684872)
 
 
 ## Getting Started
