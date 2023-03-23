@@ -31,6 +31,8 @@ This project demonstrates using the HC-SR04 ultrasonic sensor and Raspberry Pi P
 8. [7-Segment Display Counter](micropython/seg7_counter.py)
 This project showcases interfacing with a 7-segment display to create an ascending and descending hexadecimal counter using a Raspberry Pi Pico. Users can learn about controlling display segments, defining digit patterns, and using a switch to control counting direction. [![Wokwi_badge](https://user-images.githubusercontent.com/63488701/212449119-a8510897-c860-4545-8c1a-794169547ba1.svg)](https://wokwi.com/projects/300210834979684872)
 
+9. [Google Home Four-Color Rotation Animation](micropython/ring_light.py)
+This project showcases creating a Google Home inspired four-color rotation animation using a Raspberry Pi Pico and an LED ring light. Users can learn about controlling LED colors, defining pixel patterns, and creating a smooth color transition animation. [![Wokwi_badge](https://user-images.githubusercontent.com/63488701/212449119-a8510897-c860-4545-8c1a-794169547ba1.svg)](https://wokwi.com/projects/359664314470215681)
 
 ## Getting Started
 
