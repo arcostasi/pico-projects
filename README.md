@@ -34,6 +34,9 @@ This project showcases interfacing with a 7-segment display to create an ascendi
 9. [Google Home Four-Color Rotation Animation](micropython/ring_light.py)
 This project showcases creating a Google Home inspired four-color rotation animation using a Raspberry Pi Pico and an LED ring light. Users can learn about controlling LED colors, defining pixel patterns, and creating a smooth color transition animation. [![Wokwi_badge](https://user-images.githubusercontent.com/63488701/212449119-a8510897-c860-4545-8c1a-794169547ba1.svg)](https://wokwi.com/projects/359664314470215681)
 
+10. [RGB LED Control with PWM](micropython/RGB_LED_PWM.py)
+This project drive a RGB Led with three pins of PWM(Pulse Width Modulation) and make some color with change the state of three pins.[![Wokwi_badge](https://user-images.githubusercontent.com/63488701/212449119-a8510897-c860-4545-8c1a-794169547ba1.svg)](https://wokwi.com/projects/389559874181227521)
+
 ## Getting Started
 
 To get started with these projects, you'll need to set up your [Raspberry Pi Pico with MicroPython](https://www.raspberrypi.com/documentation/microcontrollers/micropython.html). Follow the [official documentation](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html) to learn how to install MicroPython on your Pico and start running the code.
