@@ -37,6 +37,9 @@ This project showcases creating a Google Home inspired four-color rotation anima
 10. [RGB LED Control with PWM](micropython/RGB_LED_PWM.py)
 This project drive a RGB Led with three pins of PWM(Pulse Width Modulation) and make some color with change the state of three pins.[![Wokwi_badge](https://user-images.githubusercontent.com/63488701/212449119-a8510897-c860-4545-8c1a-794169547ba1.svg)](https://wokwi.com/projects/389559874181227521)
 
+11. [Servo motor Controlled by Potentiometer](micropython/Servo_controllby_pot.py)
+This project drive a Servo motor with PWM and using a Potentiometer and use ADC channel.I hope you enjoy it!.[![Wokwi_badge](https://user-images.githubusercontent.com/63488701/212449119-a8510897-c860-4545-8c1a-794169547ba1.svg)](https://wokwi.com/projects/391059436557987841)
+
 ## Getting Started
 
 To get started with these projects, you'll need to set up your [Raspberry Pi Pico with MicroPython](https://www.raspberrypi.com/documentation/microcontrollers/micropython.html). Follow the [official documentation](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html) to learn how to install MicroPython on your Pico and start running the code.
